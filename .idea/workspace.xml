@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23f67d74-1558-4acf-9557-a87b512b5cda" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/read_file/ReadingFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/LinkedStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,34 +15,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PareCortage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cortage/PareCortage.java">
+      <file leaf-file-name="LinkedStack.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/stack/LinkedStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="82" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="323">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
-                <element signature="class#TwoTuple#0;class#PareCortage#0" />
-                <element signature="method#TwoTuple#0;class#TwoTuple#0;class#PareCortage#0" />
-                <element signature="method#ThreeTuple#0;class#ThreeTuple#0;class#PareCortage#0" />
-                <element signature="method#FourTuple#0;class#FourTuple#0;class#PareCortage#0" />
-                <element signature="method#FiveTuple#0;class#FiveTuple#0;class#PareCortage#0" />
-                <element signature="method#toString#0;class#FiveTuple#0;class#PareCortage#0" />
-                <element signature="method#h#0;class#PareCortage#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReadingFile.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/read_file/ReadingFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#main#0;class#ReadingFile#0" />
-                <element signature="method#createDoc#0;class#ReadingFile#0" />
-                <element signature="method#readFile#0;class#ReadingFile#0" />
+                <element signature="class#Node#0;class#LinkedStack#0" />
+                <element signature="method#Node#1;class#Node#0;class#LinkedStack#0" />
+                <element signature="method#pop#0;class#LinkedStack#0" />
               </folding>
             </state>
           </provider>
@@ -60,6 +41,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="karpovichDima" />
         <option value="Dima Karpovich &lt;karpovich.code@gmail.com&gt;" />
       </list>
     </option>
@@ -74,12 +56,14 @@
         <option value="$PROJECT_DIR$/src/cortage/TwoTuple.java" />
         <option value="$PROJECT_DIR$/src/cortage/PareCortage.java" />
         <option value="$PROJECT_DIR$/src/read_file/ReadingFile.java" />
+        <option value="$PROJECT_DIR$/src/stack/CustomStack.java" />
+        <option value="$PROJECT_DIR$/src/stack/LinkedStack.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="width" value="823" />
+    <option name="width" value="977" />
     <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -105,13 +89,7 @@
               <item name="StudyCodeExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudyCodeExample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cortage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StudyCodeExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StudyCodeExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="read_file" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -138,11 +116,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReadingFile">
+  <component name="RunManager" selected="Application.LinkedStack">
     <configuration name="Generics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Generics" />
       <module name="StudyCodeExample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="LinkedStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.LinkedStack" />
+      <module name="StudyCodeExample" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="PareCortage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cortage.PareCortage" />
@@ -211,9 +200,11 @@
       <item itemvalue="Application.Generics" />
       <item itemvalue="Application.PareCortage" />
       <item itemvalue="Application.ReadingFile" />
+      <item itemvalue="Application.LinkedStack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedStack" />
         <item itemvalue="Application.ReadingFile" />
         <item itemvalue="Application.PareCortage" />
         <item itemvalue="Application.Generics" />
@@ -238,11 +229,19 @@
       <option name="project" value="LOCAL" />
       <updated>1528783699228</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Read/Create file.">
+      <created>1528821710080</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528821710080</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -252,12 +251,13 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.54986525" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5431267" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.33242506" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11677852" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24133149" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -269,7 +269,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -277,7 +276,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cortage example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cortage example" />
+    <MESSAGE value="Read/Create file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Read/Create file." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/cortage/PareCortage.java">
@@ -307,6 +307,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -321,6 +325,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -346,13 +354,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/read_file/ReadingFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="85">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#main#0;class#ReadingFile#0" />
             <element signature="method#createDoc#0;class#ReadingFile#0" />
             <element signature="method#readFile#0;class#ReadingFile#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stack/LinkedStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="class#Node#0;class#LinkedStack#0" />
+            <element signature="method#Node#1;class#Node#0;class#LinkedStack#0" />
+            <element signature="method#pop#0;class#LinkedStack#0" />
           </folding>
         </state>
       </provider>
