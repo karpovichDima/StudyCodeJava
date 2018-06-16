@@ -3,7 +3,7 @@ package serialization;
 import java.io.*;
 
 public class Serialization {
-
+    //
     public static class User implements Serializable {
         int lifeLevel;
         Sord sord;
