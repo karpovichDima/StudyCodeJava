@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23f67d74-1558-4acf-9557-a87b512b5cda" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/date/DateMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/priority_queue/PriorityQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DateMain.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/date/DateMain.java">
+      <file leaf-file-name="PriorityQueue.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/priority_queue/PriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="31" column="76" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
+            <state relative-caret-position="187">
+              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,12 +72,13 @@
         <option value="$PROJECT_DIR$/src/serialization/Serialization.java" />
         <option value="$PROJECT_DIR$/src/date/Date.java" />
         <option value="$PROJECT_DIR$/src/date/DateMain.java" />
+        <option value="$PROJECT_DIR$/src/priority_queue/PriorityQueue.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="width" value="720" />
+    <option name="width" value="977" />
     <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -88,7 +89,6 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,10 +101,17 @@
               <item name="StudyCodeExample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="StudyCodeExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyCodeExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="priority_queue" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -131,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DateMain">
+  <component name="RunManager" selected="Application.PriorityQueue">
     <configuration name="DateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="date.DateMain" />
       <module name="StudyCodeExample" />
@@ -165,13 +172,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ReadingFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="read_file.ReadingFile" />
+    <configuration name="PriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="priority_queue.PriorityQueue" />
       <module name="StudyCodeExample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="read_file.*" />
+          <option name="PATTERN" value="priority_queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,19 +236,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ReadingFile" />
       <item itemvalue="Application.LinkedStack" />
       <item itemvalue="Application.Generators" />
       <item itemvalue="Application.Serialization" />
       <item itemvalue="Application.DateMain" />
+      <item itemvalue="Application.PriorityQueue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PriorityQueue" />
         <item itemvalue="Application.DateMain" />
         <item itemvalue="Application.Serialization" />
         <item itemvalue="Application.Generators" />
         <item itemvalue="Application.LinkedStack" />
-        <item itemvalue="Application.ReadingFile" />
       </list>
     </recent_temporary>
   </component>
@@ -291,11 +298,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529125190022</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Work with date">
+      <created>1529127027835</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1529127027835</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="576" height="870" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -306,12 +320,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.54223436" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.53638816" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.33514985" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3814147" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.30097088" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -335,7 +349,8 @@
     <MESSAGE value="Stack" />
     <MESSAGE value="Searilization" />
     <MESSAGE value="Searilization example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Searilization example" />
+    <MESSAGE value="Work with date" />
+    <option name="LAST_COMMIT_MESSAGE" value="Work with date" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -434,8 +449,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/date/DateMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="456">
           <caret line="31" column="76" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/priority_queue/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
