@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23f67d74-1558-4acf-9557-a87b512b5cda" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hash_set/HashSetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash_map/HashMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree_set/TreeSetExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,11 +25,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HashSetExample.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HashSetExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hash_set/HashSetExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashMapExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hash_map/HashMapExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeSetExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tree_set/TreeSetExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,12 +110,14 @@
         <option value="$PROJECT_DIR$/src/date/DateMain.java" />
         <option value="$PROJECT_DIR$/src/priority_queue/PriorityQueue.java" />
         <option value="$PROJECT_DIR$/src/hash_set/HashSetExample.java" />
+        <option value="$PROJECT_DIR$/src/hash_map/HashMapExample.java" />
+        <option value="$PROJECT_DIR$/src/tree_set/TreeSetExample.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="977" />
+    <option name="width" value="635" />
     <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -115,7 +144,7 @@
               <item name="StudyCodeExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudyCodeExample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hash_set" type="462c0819:PsiDirectoryNode" />
+              <item name="tree_set" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -148,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HashSetExample">
+  <component name="RunManager" selected="Application.TreeSetExample">
     <configuration name="DateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="date.DateMain" />
       <module name="StudyCodeExample" />
@@ -160,13 +189,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Generators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generator.Generators" />
+    <configuration name="HashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hash_map.HashMapExample" />
       <module name="StudyCodeExample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generator.*" />
+          <option name="PATTERN" value="hash_map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,13 +222,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Serialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="serialization.Serialization" />
+    <configuration name="TreeSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree_set.TreeSetExample" />
       <module name="StudyCodeExample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="serialization.*" />
+          <option name="PATTERN" value="tree_set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,19 +275,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Generators" />
-      <item itemvalue="Application.Serialization" />
       <item itemvalue="Application.DateMain" />
       <item itemvalue="Application.PriorityQueue" />
       <item itemvalue="Application.HashSetExample" />
+      <item itemvalue="Application.HashMapExample" />
+      <item itemvalue="Application.TreeSetExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeSetExample" />
+        <item itemvalue="Application.HashMapExample" />
         <item itemvalue="Application.HashSetExample" />
         <item itemvalue="Application.PriorityQueue" />
         <item itemvalue="Application.DateMain" />
-        <item itemvalue="Application.Serialization" />
-        <item itemvalue="Application.Generators" />
       </list>
     </recent_temporary>
   </component>
@@ -322,11 +351,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529168965552</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="HashSet: basics">
+      <created>1529169793997</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1529169793997</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="-6" y="0" width="508" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -337,12 +373,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.53638816" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3342318" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5354223" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3328841" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30067113" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.62053573" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -368,7 +404,8 @@
     <MESSAGE value="Searilization example" />
     <MESSAGE value="Work with date" />
     <MESSAGE value="Priority Queue: basics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Priority Queue: basics" />
+    <MESSAGE value="HashSet: basics" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashSet: basics" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -481,8 +518,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hash_set/HashSetExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hash_map/HashMapExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree_set/TreeSetExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
