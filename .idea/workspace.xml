@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23f67d74-1558-4acf-9557-a87b512b5cda" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hash_map/HashMapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree_set/TreeSetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compare/sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,13 +50,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreeSetExample.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TreeSetExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tree_set/TreeSetExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/compare/sort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,10 +128,11 @@
         <option value="$PROJECT_DIR$/src/hash_set/HashSetExample.java" />
         <option value="$PROJECT_DIR$/src/hash_map/HashMapExample.java" />
         <option value="$PROJECT_DIR$/src/tree_set/TreeSetExample.java" />
+        <option value="$PROJECT_DIR$/src/compare/sort.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="635" />
     <option name="height" value="1088" />
@@ -139,6 +156,12 @@
               <item name="StudyCodeExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudyCodeExample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudyCodeExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyCodeExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="compare" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="StudyCodeExample" type="b2602c69:ProjectViewProjectNode" />
@@ -177,18 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TreeSetExample">
-    <configuration name="DateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="date.DateMain" />
-      <module name="StudyCodeExample" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="date.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.sort">
     <configuration name="HashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hash_map.HashMapExample" />
       <module name="StudyCodeExample" />
@@ -236,6 +248,17 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
+    <configuration name="sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="compare.sort" />
+      <module name="StudyCodeExample" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="compare.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -275,19 +298,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.DateMain" />
       <item itemvalue="Application.PriorityQueue" />
       <item itemvalue="Application.HashSetExample" />
       <item itemvalue="Application.HashMapExample" />
       <item itemvalue="Application.TreeSetExample" />
+      <item itemvalue="Application.sort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.sort" />
         <item itemvalue="Application.TreeSetExample" />
         <item itemvalue="Application.HashMapExample" />
         <item itemvalue="Application.HashSetExample" />
         <item itemvalue="Application.PriorityQueue" />
-        <item itemvalue="Application.DateMain" />
       </list>
     </recent_temporary>
   </component>
@@ -358,11 +381,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529169793997</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="TreeSet: Sorted List example">
+      <created>1529171870873</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1529171870873</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="508" height="870" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -373,13 +403,13 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5354223" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3328841" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.53504044" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32884097" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.62053573" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49865228" visible="true" weight="0.147651" />
+      <window_info id="Structure" order="1" sideWeight="0.5013477" side_tool="true" weight="0.147651" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -405,7 +435,8 @@
     <MESSAGE value="Work with date" />
     <MESSAGE value="Priority Queue: basics" />
     <MESSAGE value="HashSet: basics" />
-    <option name="LAST_COMMIT_MESSAGE" value="HashSet: basics" />
+    <MESSAGE value="TreeSet: Sorted List example" />
+    <option name="LAST_COMMIT_MESSAGE" value="TreeSet: Sorted List example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -544,6 +575,21 @@
           <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compare/sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
           </folding>
         </state>
       </provider>
