@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23f67d74-1558-4acf-9557-a87b512b5cda" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stack/LinkedStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,26 +13,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LinkedStack.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/stack/LinkedStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-              <folding>
-                <element signature="class#Node#0;class#LinkedStack#0" />
-                <element signature="method#Node#1;class#Node#0;class#LinkedStack#0" />
-                <element signature="method#pop#0;class#LinkedStack#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -58,13 +43,25 @@
         <option value="$PROJECT_DIR$/src/read_file/ReadingFile.java" />
         <option value="$PROJECT_DIR$/src/stack/CustomStack.java" />
         <option value="$PROJECT_DIR$/src/stack/LinkedStack.java" />
+        <option value="$PROJECT_DIR$/src/Generator/Generators.java" />
+        <option value="$PROJECT_DIR$/src/generator/GeneratorSmall.java" />
+        <option value="$PROJECT_DIR$/src/generator/CoffeeGenerator.java" />
+        <option value="$PROJECT_DIR$/src/generator/Generator.java" />
+        <option value="$PROJECT_DIR$/src/generator/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/generator/Coffee.java" />
+        <option value="$PROJECT_DIR$/src/generator/Breve.java" />
+        <option value="$PROJECT_DIR$/src/generator/Americano.java" />
+        <option value="$PROJECT_DIR$/src/generator/Cappucino.java" />
+        <option value="$PROJECT_DIR$/src/generator/Latte.java" />
+        <option value="$PROJECT_DIR$/src/generator/Mocha.java" />
+        <option value="$PROJECT_DIR$/src/generator/Generators.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1088" />
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1090" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -89,7 +86,7 @@
               <item name="StudyCodeExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudyCodeExample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
+              <item name="cortage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -99,8 +96,12 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="generator" />
       <recent name="cortage" />
     </key>
   </component>
@@ -116,11 +117,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedStack">
-    <configuration name="Generics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generics" />
+  <component name="RunManager" selected="Application.Serialization">
+    <configuration name="Generators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generator.Generators" />
       <module name="StudyCodeExample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="LinkedStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stack.LinkedStack" />
@@ -139,7 +146,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cortage.*" />
+          <option name="PATTERN" value="generator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,6 +158,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="read_file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Serialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serialization.Serialization" />
+      <module name="StudyCodeExample" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,17 +215,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Generics" />
       <item itemvalue="Application.PareCortage" />
       <item itemvalue="Application.ReadingFile" />
       <item itemvalue="Application.LinkedStack" />
+      <item itemvalue="Application.Generators" />
+      <item itemvalue="Application.Serialization" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Serialization" />
+        <item itemvalue="Application.Generators" />
         <item itemvalue="Application.LinkedStack" />
         <item itemvalue="Application.ReadingFile" />
         <item itemvalue="Application.PareCortage" />
-        <item itemvalue="Application.Generics" />
       </list>
     </recent_temporary>
   </component>
@@ -236,16 +256,21 @@
       <option name="project" value="LOCAL" />
       <updated>1528821710080</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Stack">
+      <created>1528824278450</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528824278450</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -256,19 +281,20 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24133149" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1818792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892185" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32884097" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -277,22 +303,31 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cortage example" />
     <MESSAGE value="Read/Create file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Read/Create file." />
+    <MESSAGE value="Stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/stack/LinkedStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="49" lean-forward="true" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+          <folding>
+            <element signature="class#Node#0;class#LinkedStack#0" />
+            <element signature="method#Node#1;class#Node#0;class#LinkedStack#0" />
+            <element signature="method#pop#0;class#LinkedStack#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cortage/PareCortage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1394">
           <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
-          <folding>
-            <element signature="class#TwoTuple#0;class#PareCortage#0" />
-            <element signature="method#TwoTuple#0;class#TwoTuple#0;class#PareCortage#0" />
-            <element signature="method#ThreeTuple#0;class#ThreeTuple#0;class#PareCortage#0" />
-            <element signature="method#FourTuple#0;class#FourTuple#0;class#PareCortage#0" />
-            <element signature="method#FiveTuple#0;class#FiveTuple#0;class#PareCortage#0" />
-            <element signature="method#toString#0;class#FiveTuple#0;class#PareCortage#0" />
-            <element signature="method#h#0;class#PareCortage#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -337,38 +372,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="82" selection-start-line="82" selection-end-line="82" />
-          <folding>
-            <element signature="class#TwoTuple#0;class#PareCortage#0" />
-            <element signature="method#TwoTuple#0;class#TwoTuple#0;class#PareCortage#0" />
-            <element signature="method#ThreeTuple#0;class#ThreeTuple#0;class#PareCortage#0" />
-            <element signature="method#FourTuple#0;class#FourTuple#0;class#PareCortage#0" />
-            <element signature="method#FiveTuple#0;class#FiveTuple#0;class#PareCortage#0" />
-            <element signature="method#toString#0;class#FiveTuple#0;class#PareCortage#0" />
-            <element signature="method#h#0;class#PareCortage#0" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myFile.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/myFile.txt" />
     <entry file="file://$PROJECT_DIR$/src/read_file/ReadingFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#ReadingFile#0" />
-            <element signature="method#createDoc#0;class#ReadingFile#0" />
-            <element signature="method#readFile#0;class#ReadingFile#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stack/LinkedStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="34">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
           <folding>
             <element signature="class#Node#0;class#LinkedStack#0" />
             <element signature="method#Node#1;class#Node#0;class#LinkedStack#0" />
@@ -377,5 +395,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/generator/CoffeeGenerator.java" />
+    <entry file="file://$PROJECT_DIR$/src/generator/Generator.java" />
+    <entry file="file://$PROJECT_DIR$/src/generator/Coffee.java" />
+    <entry file="file://$PROJECT_DIR$/src/generator/Fibonacci.java" />
+    <entry file="file://$PROJECT_DIR$/src/generator/Breve.java" />
+    <entry file="file://$PROJECT_DIR$/src/generator/Americano.java" />
+    <entry file="file://$PROJECT_DIR$/src/generator/Cappucino.java" />
+    <entry file="file://$PROJECT_DIR$/src/generator/Latte.java" />
+    <entry file="file://$PROJECT_DIR$/src/generator/Mocha.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generator/Generators.java" />
   </component>
 </project>
