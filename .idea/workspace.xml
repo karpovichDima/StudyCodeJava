@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23f67d74-1558-4acf-9557-a87b512b5cda" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/anonim_class/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compare/sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compare/sort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,19 +14,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="sort.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="sort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/compare/sort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+            <state relative-caret-position="269">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/anonim_class/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
-                <element signature="e#138#139#0" expanded="true" />
-                <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#61#62#0" expanded="true" />
+                <element signature="e#97#98#0" expanded="true" />
+                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,12 +93,14 @@
         <option value="$PROJECT_DIR$/src/hash_map/HashMapExample.java" />
         <option value="$PROJECT_DIR$/src/tree_set/TreeSetExample.java" />
         <option value="$PROJECT_DIR$/src/compare/sort.java" />
+        <option value="$PROJECT_DIR$/src/generics/Main.java" />
+        <option value="$PROJECT_DIR$/src/anonim_class/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="614" />
+    <option name="width" value="612" />
     <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -97,7 +110,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,7 +127,7 @@
               <item name="StudyCodeExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudyCodeExample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="compare" type="462c0819:PsiDirectoryNode" />
+              <item name="anonim_class" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="StudyCodeExample" type="b2602c69:ProjectViewProjectNode" />
@@ -126,7 +139,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -153,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.sort">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="HashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hash_map.HashMapExample" />
       <module name="StudyCodeExample" />
@@ -165,24 +178,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="HashSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hash_set.HashSetExample" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="anonim_class.Main" />
       <module name="StudyCodeExample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hash_set.*" />
+          <option name="PATTERN" value="anonim_class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="priority_queue.PriorityQueue" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.Main" />
       <module name="StudyCodeExample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="priority_queue.*" />
+          <option name="PATTERN" value="generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -251,19 +264,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.PriorityQueue" />
-      <item itemvalue="Application.HashSetExample" />
       <item itemvalue="Application.HashMapExample" />
       <item itemvalue="Application.TreeSetExample" />
       <item itemvalue="Application.sort" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.sort" />
         <item itemvalue="Application.TreeSetExample" />
         <item itemvalue="Application.HashMapExample" />
-        <item itemvalue="Application.HashSetExample" />
-        <item itemvalue="Application.PriorityQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -348,11 +361,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529176096318</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Sorting List, MyType, Comparator">
+      <created>1529176469871</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1529176469871</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="491" height="870" extended-state="0" />
+    <frame x="-6" y="0" width="489" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -363,18 +383,18 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.53405994" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32884097" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52724797" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49865228" weight="0.30513176" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49865228" weight="0.3146853" />
       <window_info id="Structure" order="1" sideWeight="0.5013477" side_tool="true" weight="0.147651" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892185" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892185" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -397,7 +417,8 @@
     <MESSAGE value="HashSet: basics" />
     <MESSAGE value="TreeSet: Sorted List example" />
     <MESSAGE value="Sorting List, MyType, Compare" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sorting List, MyType, Compare" />
+    <MESSAGE value="Sorting List, MyType, Comparator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sorting List, MyType, Comparator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -405,6 +426,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/compare/sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/stack/LinkedStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -512,9 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -522,11 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
           <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -534,23 +554,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generics/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/compare/sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+        <state relative-caret-position="269">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/anonim_class/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#61#62#0" expanded="true" />
+            <element signature="e#97#98#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
           </folding>
         </state>
       </provider>
