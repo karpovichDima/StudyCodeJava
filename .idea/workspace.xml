@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23f67d74-1558-4acf-9557-a87b512b5cda" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/reflection/Reflection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multi_thread/Threading.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,42 +15,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/compare/sort.java">
+      <file leaf-file-name="Threading.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/multi_thread/Threading.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/anonim_class/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="578">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
-                <element signature="e#61#62#0" expanded="true" />
-                <element signature="e#97#98#0" expanded="true" />
-                <element signature="e#136#137#0" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#535#536#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reflection.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/reflection/Reflection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
-              <folding>
-                <element signature="method#SomeClass#0;class#SomeClass#0" />
-                <element signature="method#SomeClass#1;class#SomeClass#0" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,14 +80,14 @@
         <option value="$PROJECT_DIR$/src/generics/Main.java" />
         <option value="$PROJECT_DIR$/src/anonim_class/Main.java" />
         <option value="$PROJECT_DIR$/src/reflection/Reflection.java" />
+        <option value="$PROJECT_DIR$/src/multi_thread/Threading.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="y" value="1" />
-    <option name="width" value="612" />
-    <option name="height" value="1103" />
+    <option name="width" value="509" />
+    <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -142,13 +113,7 @@
               <item name="StudyCodeExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudyCodeExample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reflection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StudyCodeExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StudyCodeExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tree_set" type="462c0819:PsiDirectoryNode" />
+              <item name="multi_thread" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Reflection">
+  <component name="RunManager" selected="Application.Threading">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="anonim_class.Main" />
       <module name="StudyCodeExample" />
@@ -215,13 +180,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TreeSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree_set.TreeSetExample" />
+    <configuration name="Threading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multi_thread.Threading" />
       <module name="StudyCodeExample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree_set.*" />
+          <option name="PATTERN" value="multi_thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,19 +244,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.TreeSetExample" />
       <item itemvalue="Application.sort" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Reflection" />
+      <item itemvalue="Application.Threading" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Threading" />
         <item itemvalue="Application.Reflection" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.sort" />
-        <item itemvalue="Application.TreeSetExample" />
       </list>
     </recent_temporary>
   </component>
@@ -390,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529323464606</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Reflection example">
+      <created>1529327084416</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1529327084417</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -410,7 +382,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49865228" weight="0.3146853" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49865228" weight="0.31345353" />
       <window_info id="Structure" order="1" sideWeight="0.5013477" side_tool="true" weight="0.147651" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -441,7 +413,8 @@
     <MESSAGE value="Sorting List, MyType, Compare" />
     <MESSAGE value="Sorting List, MyType, Comparator" />
     <MESSAGE value="Anonim.class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Anonim.class" />
+    <MESSAGE value="Reflection example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reflection example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -587,10 +560,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/compare/sort.java">
+    <entry file="file://$PROJECT_DIR$/src/reflection/Reflection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="918">
+          <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+          <folding>
+            <element signature="method#SomeClass#0;class#SomeClass#0" />
+            <element signature="method#SomeClass#1;class#SomeClass#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -611,13 +588,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reflection/Reflection.java">
+    <entry file="file://$PROJECT_DIR$/src/compare/sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+        <state relative-caret-position="269">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multi_thread/Threading.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
-            <element signature="method#SomeClass#0;class#SomeClass#0" />
-            <element signature="method#SomeClass#1;class#SomeClass#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
