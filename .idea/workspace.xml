@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23f67d74-1558-4acf-9557-a87b512b5cda" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/try_lock/TryLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conditions_signal/Conditions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,23 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Threading.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/multi_thread/Threading.java">
+      <file leaf-file-name="Conditions.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/conditions_signal/Conditions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TryLock.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/try_lock/TryLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+            <state relative-caret-position="553">
+              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,12 +82,13 @@
         <option value="$PROJECT_DIR$/src/reflection/Reflection.java" />
         <option value="$PROJECT_DIR$/src/multi_thread/Threading.java" />
         <option value="$PROJECT_DIR$/src/try_lock/TryLock.java" />
+        <option value="$PROJECT_DIR$/src/conditions_signal/Conditions.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="width" value="509" />
+    <option name="width" value="478" />
     <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -120,12 +110,6 @@
               <item name="StudyCodeExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudyCodeExample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StudyCodeExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StudyCodeExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="try_lock" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -158,7 +142,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TryLock">
+  <component name="RunManager" selected="Application.Conditions">
+    <configuration name="Conditions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conditions_signal.Conditions" />
+      <module name="StudyCodeExample" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="conditions_signal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="anonim_class.Main" />
       <module name="StudyCodeExample" />
@@ -166,17 +161,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="anonim_class.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.Main" />
-      <module name="StudyCodeExample" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -256,19 +240,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Reflection" />
       <item itemvalue="Application.Threading" />
       <item itemvalue="Application.TryLock" />
+      <item itemvalue="Application.Conditions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Conditions" />
         <item itemvalue="Application.TryLock" />
         <item itemvalue="Application.Threading" />
         <item itemvalue="Application.Reflection" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -381,11 +365,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529339614641</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="TryLock">
+      <created>1529341049103</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1529341049103</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="-6" y="0" width="382" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -434,7 +425,8 @@
     <MESSAGE value="Anonim.class" />
     <MESSAGE value="Reflection example" />
     <MESSAGE value="Wait/Notify" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wait/Notify" />
+    <MESSAGE value="TryLock" />
+    <option name="LAST_COMMIT_MESSAGE" value="TryLock" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -615,6 +607,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/try_lock/TryLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/multi_thread/Threading.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -625,10 +627,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/try_lock/TryLock.java">
+    <entry file="file://$PROJECT_DIR$/src/conditions_signal/Conditions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        <state relative-caret-position="553">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
