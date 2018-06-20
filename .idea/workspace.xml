@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23f67d74-1558-4acf-9557-a87b512b5cda" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/file_visitor/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/socket/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,10 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/file_visitor/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/socket/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+            <state relative-caret-position="221">
+              <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,12 +88,13 @@
         <option value="$PROJECT_DIR$/my.properties" />
         <option value="$PROJECT_DIR$/src/propertyEx/PropertyEx.java" />
         <option value="$PROJECT_DIR$/src/file_visitor/Main.java" />
+        <option value="$PROJECT_DIR$/src/socket/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="width" value="424" />
+    <option name="width" value="977" />
     <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -112,6 +112,17 @@
             <path>
               <item name="StudyCodeExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudyCodeExample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudyCodeExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyCodeExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudyCodeExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyCodeExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -146,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Conditions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="conditions_signal.Conditions" />
       <module name="StudyCodeExample" />
@@ -169,6 +180,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="socket.Main" />
+      <module name="StudyCodeExample" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="file_visitor.Main" />
       <module name="StudyCodeExample" />
@@ -187,17 +209,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="propertyEx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TryLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="try_lock.TryLock" />
-      <module name="StudyCodeExample" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="try_lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,19 +255,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.TryLock" />
       <item itemvalue="Application.Conditions" />
       <item itemvalue="Application.ExecutorPool" />
       <item itemvalue="Application.PropertyEx" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.PropertyEx" />
         <item itemvalue="Application.ExecutorPool" />
         <item itemvalue="Application.Conditions" />
-        <item itemvalue="Application.TryLock" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529386566633</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="FileVisitor">
+      <created>1529472605174</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1529472605174</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -412,12 +430,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5148248" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5148248" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32884097" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49865228" weight="0.31543624" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49865228" weight="0.3148405" />
       <window_info id="Structure" order="1" sideWeight="0.5013477" side_tool="true" weight="0.147651" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -454,7 +472,8 @@
     <MESSAGE value="Condition/signal" />
     <MESSAGE value="Executor/Pool" />
     <MESSAGE value="Properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="Properties" />
+    <MESSAGE value="FileVisitor" />
+    <option name="LAST_COMMIT_MESSAGE" value="FileVisitor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -684,6 +703,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/socket/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
