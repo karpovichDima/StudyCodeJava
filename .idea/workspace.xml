@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23f67d74-1558-4acf-9557-a87b512b5cda" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/annotations/Annotat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/regular/RegularVariable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Annotat.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Annotat.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/annotations/Annotat.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
@@ -23,6 +23,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegularVariable.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/regular/RegularVariable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -96,12 +105,13 @@
         <option value="$PROJECT_DIR$/src/encryption/RSA.java" />
         <option value="$PROJECT_DIR$/src/annotations.java" />
         <option value="$PROJECT_DIR$/src/annotations/Annotat.java" />
+        <option value="$PROJECT_DIR$/src/regular/RegularVariable.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="width" value="979" />
+    <option name="width" value="980" />
     <option name="height" value="1090" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -127,7 +137,7 @@
               <item name="StudyCodeExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudyCodeExample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="annotations" type="462c0819:PsiDirectoryNode" />
+              <item name="regular" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -164,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Annotat">
+  <component name="RunManager" selected="Application.RegularVariable">
     <configuration name="AES" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="encryption.AES" />
       <module name="StudyCodeExample" />
@@ -187,17 +197,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="equal_string.Main" />
-      <module name="StudyCodeExample" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="equal_string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="encryption.Main" />
       <module name="StudyCodeExample" />
@@ -216,6 +215,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="encryption.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="RegularVariable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="regular.RegularVariable" />
+      <module name="StudyCodeExample" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="regular.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,19 +272,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.AES" />
       <item itemvalue="Application.RSA" />
       <item itemvalue="Application.Annotat" />
+      <item itemvalue="Application.RegularVariable" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RegularVariable" />
         <item itemvalue="Application.Annotat" />
         <item itemvalue="Application.RSA" />
         <item itemvalue="Application.AES" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -457,12 +467,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529602929456</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="UsedAnnotationEx">
+      <created>1529605294962</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1529605294962</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -477,7 +493,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49865228" weight="0.3147651" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49865228" visible="true" weight="0.3147651" />
       <window_info id="Structure" order="1" sideWeight="0.5013477" side_tool="true" weight="0.147651" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -520,7 +536,8 @@
     <MESSAGE value="EncryptionStrings" />
     <MESSAGE value="Encrypt/Decrypt AES" />
     <MESSAGE value="Encrypt/Decrypt RSA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Encrypt/Decrypt RSA" />
+    <MESSAGE value="UsedAnnotationEx" />
+    <option name="LAST_COMMIT_MESSAGE" value="UsedAnnotationEx" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -528,13 +545,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/executor/ExecutorPool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -805,6 +815,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/regular/RegularVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
         </state>
       </provider>
     </entry>
